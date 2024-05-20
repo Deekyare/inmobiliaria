@@ -97,7 +97,11 @@
     flex-direction: column;
     text-align: center;
   }
+  .dropdown{
+    display: contents;
+  }
 }
+
 
 @media (max-height: 500px) {
   #hero {
@@ -114,6 +118,7 @@
   padding: 30px;
   background-color: black;
   opacity: 70%;
+
 }
 
 /*--------------------------------------------------------------
