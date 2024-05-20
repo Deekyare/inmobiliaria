@@ -97,11 +97,15 @@
     flex-direction: column;
     text-align: center;
   }
-  .dropdown{
+  .dropdown {
     display: contents;
   }
+  h2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
 }
-
 
 @media (max-height: 500px) {
   #hero {
@@ -113,12 +117,10 @@
   z-index: 999;
   width: auto;
   color: white;
-  color: white;
   border: solid #0aad96;
   padding: 30px;
   background-color: black;
   opacity: 70%;
-
 }
 
 /*--------------------------------------------------------------
