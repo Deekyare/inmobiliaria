@@ -149,57 +149,29 @@
           <div
             class="contenedor-dropdown d-flex justify-content-around gap-3 pt-3"
           >
-            <div class="dropdown">
-              <button
-                class="btn btn-secondary dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton1"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Operación
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Alquiler</a></li>
-                <li><a class="dropdown-item" href="#">Venta</a></li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button
-                class="btn btn-secondary dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton2"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Tipos de propiedad
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                <li><a class="dropdown-item" href="#">Casas</a></li>
-                <li><a class="dropdown-item" href="#">Departamentos</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Lotes</a>
-                </li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button
-                class="btn btn-secondary dropdown-toggle"
-                type="button"
-                id="dropdownMenuButton3"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Localidades
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
-                <li><a class="dropdown-item" href="#">Guernica</a></li>
-                <li><a class="dropdown-item" href="#">Glew</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">San Vicente</a>
-                </li>
-              </ul>
-            </div>
+             <div class="form-group">
+                    <label for="operacion">Tipo de operación</label>
+                    <select class="form-control mt-2" id="optionOperacion">
+                      <option>Alquiler</option>
+                      <option>Venta</option>
+                    </select>
+                  </div>
+             <div class="form-group mt-3">
+                    <label for="operacion">Tipo de propiedad</label>
+                    <select class="form-control mt-2" id="optionTipoProp">
+                      <option>Casa</option>
+                      <option>Departamento</option>
+                      <option>Lote</option>
+                    </select>
+                  </div>
+            <div class="form-group mt-3">
+                    <label for="operacion">Ubicación</label>
+                    <select class="form-control mt-2" id="optionUbicación">
+                      <option>Guernica</option>
+                      <option>Glew</option>
+                      <option>San Vicente</option>
+                    </select>
+                  </div>
           </div>
           <div class="text-center pt-3">
             <a href="#titulo-propiedades" class="btn-get-started">Buscar</a>
